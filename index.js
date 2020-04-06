@@ -9,7 +9,7 @@ app.use(helmet());
 
 const PORT = process.env.PORT || 8081;
 
-app.use(express.static('/client/'));
+app.use(express.static(path.join(__dirname,'client/')));
 
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'index.html'));
