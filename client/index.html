@@ -1,165 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-162902515-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-162902515-1");
-    </script>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="assets/cartoon-edited.png" />
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="images/icons/favicon.png" />
+    <!-- FONTS -->
     <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700"
     />
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <!-- css animation library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- stylesheet for ligthbox library that allows images to be overlayed on page -->
+    <link
+      rel="stylesheet"
+      href="styles/lightbox.css"
+    />
+    <!-- METADATA -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aradhya's Website" />
     <meta name="theme-color" content="#000000" />
+    <!-- TITLE -->
     <title>Who is Aradhya Bansal?</title>
   </head>
   <body>
     <main>
+      <!-- holds all text content -->
       <div class="content">
-        <h1 class="title">Aradhya Bansal ▪ <em>noun</em></h1>
-        <h5 class="subtitle">
-          <em>
-            1. software engineering and business student enrolled at western
-            university 2. likes to code and work on startups. 3. passionate
-            about product development, physical cosmology, basketball, and
-            self-improvement. 4. gives to others in any context or situation
-            possible 5. dreams big and gets s#$% done
-          </em>
-        </h5>
-        <p>
-          <a
-            class="link"
-            href="https://www.linkedin.com/in/aradhya-b/"
-            target="#"
-          >
-            LinkedIn
-          </a>
-          |
-          <a class="link" href="https://github.com/Aradhya-B" target="#">
-            GitHub
-          </a>
-          |
-          <a class="link" href="./assets/aradhya-bansal-resume.pdf" target="#">
-            Resume
-          </a>
-          |
-          <a class="link" href="https://learnhappy.ca" target="#">
-            Learn Happy
-          </a>
-          |
-          <a class="link" href="https://devpost.com/software/macros" target="#">
-            Super secret project I'm working on
-          </a>
-        </p>
-        <p class="main">
-          Some pivotal moments in my life and career, some good, and some bad,
-          because
-          <em>"Vulnerability doesn't come after trust - it precedes it."</em> ~
-          <a
-            class="list-link"
-            href="https://fourminutebooks.com/the-culture-code-summary/"
-            target="#"
-            ><u>The Culture Code:</u></a
-          >
-        </p>
-        <ul class="main">
-          <li>
-            '14: Barely made the basketball team and got bullied for my weight
-          </li>
-          <li>
-            '14-'15: Lost over 50 pounds and became a starter for the same team
-          </li>
-          <li>
-            '16-'17: Became a starter for my high school and AAU basketball
-            teams
-          </li>
-          <li>'17: Tore my ACL and didn't play my senior year</li>
-          <li>
-            '18: Got accepted into every major Canadian engineering school
-          </li>
-          <li>
-            '18: Received over $100k in scholarships from Queen's, Western, and
-            McGill
-          </li>
-          <li>
-            '18: Didn't win large scholarships at U Waterloo, U of T, UBC, U of
-            A, or U of C
-          </li>
-          <li>
-            '18: Joined
-            <a class="list-link" href="https://gdmissionsystems.ca/" target="#"
-              >General Dynamics</a
-            >
-            as one of their first high school engineering interns
-          </li>
-          <li>'18: Started learning how to code</li>
-          <li>
-            '18-'19: Completed first year of engineering at
-            <a class="list-link" href="https://uwo.ca" target="#">Western</a>
-            with a 95% average
-          </li>
-          <li>
-            '19: Became President of the largest
-            <a class="list-link" href="https://foundersnetwork.ca" target="#"
-              >tech and entrepreneurship club on campus</a
-            >
-          </li>
-          <li>
-            '19: Returned to General Dynamics as a software engineering intern
-          </li>
-          <li>'19: Received only 1 interview from 50+ job applications</li>
-          <li>
-            '19: Offered a summer job at
-            <a class="list-link" href="https://google.ca" target="#">Google</a>
-            to work on the Google Cloud Platform
-          </li>
-          <li>
-            '19: Hired as a part-time software developer for
-            <a
-              class="list-link"
-              href="https://www.linkedin.com/company/ltvnumbers/"
-              target="#"
-              >LTV Numbers</a
-            >
-          </li>
-          <li>
-            '19: Won
-            <a
-              class="list-link"
-              href="https://devpost.com/software/macros"
-              target="#"
-              >first place at a hackathon</a
-            >
-            and started a business
-          </li>
-          <li><em>And the story continues...</em></li>
-        </ul>
-        <p>
-          <a class="link" href="mailto:aradhyabansal2000@gmail.com"
-            >Want to chat? Shoot me an email! 📧
-          </a>
-        </p>
+        <!-- holds text that is typed with typed.js library -->
+        <span class="title" id="typed"></span>
+          <!-- holds main text on page -->
+          <div class="content-main">
+            <span>
+              <h3 class="subtitle">
+                [<em>Say</em> uh-rah-dee-uh]
+              </h3>
+              <!-- icon that plays audio clip of my name when clicked -->
+              <img 
+                class="icon" 
+                src="images/sound.png" 
+                onclick="playAudio('images/name.mp3')"
+              >
+            </span>
+          <!-- dictionary definition for aradhya -->
+          <h5 class="definition">
+            <em>
+              1. software engineering and business student.
+              2. passionate about writing beautiful code, 
+              product development, and startups.
+              3. Renaissance man in the making. 
+              4. interested in mythology, physical cosmology, philosophy, and basketball.
+              5. likes to get $#!^ done
+           </em>
+          </h5>
+          <!-- list that holds bullet points about my life -->
+          <ul class="list">
+            <li>
+              I was born and raised in Calgary, Alberta
+            </li>
+            <li>
+              I have an 
+              <a class="list-link" 
+                href="images/family.png" 
+                data-lightbox="Family" 
+                data-title="My Family">amazing family</a>
+              and 
+              <a class="list-link" 
+                href="images/friends.png" 
+                data-lightbox="Friends" 
+                data-title="My Friends">amazing friends</a>
+            </li>
+            <li>
+              I developed a 
+              <a class="list-link" 
+                href="images/bugs.png" 
+                data-lightbox="Bugs" 
+                data-title"Me Peeing My Pants">fear of bugs</a>
+              at an early age
+            </li>
+            <li>
+              I have always 
+              <a class="list-link" 
+                href="images/sports.png" 
+                data-lightbox="Sports" 
+                data-title="Superstar in the Making">had a passion for sports</a>
+            </li>
+            <li>
+              I am a believer of 
+              <a class="list-link" 
+                href="https://en.wikipedia.org/wiki/Stoicism" 
+                target="#">stoicism</a>
+              and a definite optimist
+            </li>
+            <li>
+              I really like to 
+              <a class="list-link" 
+                href="https://youtu.be/oFbrrCqxzTM" 
+                target="#">dance at Indian Weddings</a>
+              with my best friends
+            </li>
+            <li>
+              I enrolled in software engineering and business at
+              <a class="list-link" 
+                 href="https://uwo.ca" 
+                 target="#">Western University</a>
+              in 2018
+            </li>
+            <li>
+              I love to code and have done software engineering internships at 
+              <a class="list-link" 
+                 href="https://gdmissionsystems.ca/" 
+                 target="#">General Dynamics</a>,
+              <a class="list-link" 
+                 href="https://www.linkedin.com/company/ltvnumbers/" 
+                 target="#">LTV Numbers</a>, and
+              <a class="list-link" 
+                href="https://google.ca" 
+                target="#">Google</a>
+            </li>
+            <li>
+              I won 
+              <a class="list-link" 
+                href="https://devpost.com/software/macros" 
+                target="#">a hackathon</a>
+              that led me to start my first business
+            </li>
+            <li>
+              I was the President of the 
+              <a class="list-link" 
+                href="https://foundersnetwork.ca" 
+                target="#">largest tech and entrepreneurship club at Western</a>
+            </li>
+            <li>
+              I have a more detailed 
+              <a class="list-link" 
+                href="images/aradhya-resume.pdf" 
+                target="#">resume</a>
+              if you're into that sort of thing
+            </li>
+            <!-- clicking the cucumber link will reveal the secret message -->
+            <li>
+              I am as cool as a 
+              <a class="list-link" 
+                href="images/cucumber.png" 
+                data-lightbox="Cucumber" 
+                data-title="Like I said, a Cucumber"
+                onclick="revealSecretMessage('Not really much of a secret...')">cucumber</a>
+            </li>
+          </ul>
+          <!-- secret message that uses the baffle js library -->
+          <div class="baffle">
+            Smile more, it looks good on you!
+          </div>
+          <div class="baffle-sub">
+            <em id="secret-sub">
+              Maybe clicking something on the page will reveal the secret message?
+            </em>
+          </div>
+        </div>
       </div>
+      <!-- main picture that uses breathing half tone library -->
       <div class="portrait">
-        <img src="assets/cartoon-edited.png" />
-        <p>
-          <em>Figure 1: A truly incredible display of Photoshop skills</em> 😎
-        </p>
+        <img src="images/headshot.png"/>
       </div>
     </main>
+    <!-- holds icons that link to personal pages -->
+    <footer>
+        <a class="link" href="https://www.linkedin.com/in/aradhya-b/" target="#">
+          <img alt="linkedin" src="images/icons/linkedin.svg" class="icon">
+        </a>
+        <a class="link" href="https://github.com/Aradhya-B" target="#">
+          <img alt="github" src="images/icons/github.svg" class="icon">
+        </a>
+        <a class="link" href="https://learnhappy.ca" target="#">
+          <img alt="blog" src="images/icons/blog.svg" class="icon">
+        </a>
+        <a class="link" href="mailto:aradhyabansal2000@gmail.com" target="#">
+          <img alt="email" src="images/icons/mail.svg" class="icon">
+        </a>
+    </footer>
+    <!-- SCRIPTS -->
+    <!-- makes images go woah with lots of floaty dots -->
+    <script src="scripts/breathing-halftone.js"></script>
+    <!-- used to overlay images on current page with jquery -->
+    <script src="scripts/lightbox-and-jquery.js"></script>
+    <!-- adds visual typing effect -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!-- obfuscates and reveals text in DOM elements -->
+    <script src="scripts/baffle.min.js"></script>
+    <!-- custom script that uses the other libraries -->
+    <script src="scripts/script.js"></script> 
   </body>
 </html>
